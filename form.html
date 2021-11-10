@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>HTML Form</title>
+<!-- CSS -->
+<style>
+	*{
+		margin: 0;
+		padding: 0;
+		font-family: sans-serif;
+	}
+	body{
+		margin: 25px 55px;
+	}
+	.myform input{
+		padding: 10px 15px;
+		font-size: 16px;
+		margin: 5px 0px;
+	}
+	</style>
+</head>
+<body>
+<!-- Static- Please don't do anything here-->
+<script type="text/javascript">var submitted=false;</script>
+<iframe name="hidden_iframe" id="hidden_iframe" style="display: none" onload="if(submitted){window.location='https://tushitsharma2007.github.io/my-dream-app-form2/';}"></iframe>
+<!--My Form-->
+<h1>Please give your details so <br/> that we can help you🙂</h1>
+
+
+<br />
+
+<!-- FORM 
+1. Replace # of form action with your google form s url
+2. Replace # of name with entry code.
+
+Note : Now a days google forms entry codes are not availabe on source so for that kindly generate a pre-filled link in order to get the entry codes.
+-->
+<form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScLlQuJcjldb4YNcgxs_kk4Z391Eni7Iug0nUe7DNemApFggw/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true" class="myform">
+	<input type="text" placeholder="Full Name" name="entry.1114887387"><br/>
+	<input type="text" placeholder="Address" name="entry.2015646896"><br/>
+	<input type="text" placeholder="Contact number" name="entry.1138910711"><br/>
+	<input type="text" placeholder="Designation" name="entry.600045067"><br/>
+	<input type="text" placeholder="Yearly Income" name="entry.835756046"><br/>
+	<input type="text" placeholder="Number of Dependent person" name="entry.576692933"><br/>
+	<input type="text" placeholder="Did he/she have any insurance (yes or no)" name="entry.350702735"><br/>
+	<input type="submit" value="Submit">
+</form>
+
+<!--ABOUT CT-->
+<br>
+<br>
+</p>
+</body>
+</html>
