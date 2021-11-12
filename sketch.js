@@ -10,7 +10,7 @@ function setup(){
     background_img = createSprite(windowWidth/2,windowHeight/2,windowWidth,windowHeight);
     background_img.addImage("back_ground",background_image);
     background_img.scale = 1.7;
-    link = createA('form.html/','Please tap here to begin')
+    link = createA('https://tushitsharma2007.github.io/my-dream-app/form.html/','Please tap here to begin')
     link.position(windowWidth/2.20,windowHeight/1.8);
     
 }
